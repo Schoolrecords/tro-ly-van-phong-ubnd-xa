@@ -1,6 +1,6 @@
-# Trợ lý UBND xã
+# TRỢ LÝ SỐ
 
-Trợ lý số cài trên máy tính Windows cho cả **Ủy ban nhân dân xã, phường**: lãnh đạo UBND (Chủ tịch, Phó Chủ tịch), Văn phòng HĐND và UBND, Phòng Kinh tế, Phòng Văn hóa - Xã hội. Mỗi người chọn vai trò khi khai báo. Bản 2.0 nâng từ "Trợ lý Văn phòng UBND xã" - máy đang dùng bản 1.x cài đè được, dữ liệu giữ nguyên.
+Trợ lý số cài trên máy tính Windows cho cả **Ủy ban nhân dân xã, phường**: lãnh đạo UBND (Chủ tịch, Phó Chủ tịch), Văn phòng HĐND và UBND, Phòng Kinh tế, Phòng Văn hóa - Xã hội. Mỗi người chọn vai trò khi khai báo. Bản 2.0 nâng từ "TRỢ LÝ SỐ" - máy đang dùng bản 1.x cài đè được, dữ liệu giữ nguyên.
 
 **[Tải bộ cài (bản mới nhất)](https://github.com/Schoolrecords/tro-ly-van-phong-ubnd-xa/releases/latest/download/TroLyVanPhong-Setup.exe)** · [Trang giới thiệu](https://schoolrecords.github.io/tro-ly-van-phong-ubnd-xa/)
 
