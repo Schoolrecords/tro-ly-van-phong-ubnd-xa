@@ -30,6 +30,15 @@ td { padding: 9px 10px; border-top: 1px solid var(--line); vertical-align: top; 
 footer { border-top: 1px solid var(--line); margin-top: 34px; padding: 18px 0 34px; color: var(--muted); font-size: 14px; }
 code { background: var(--bg); padding: 1px 6px; border-radius: 5px; }
 @media (max-width: 560px) { header h1 { font-size: 24px; } .dau img { width: 64px; height: 64px; border-radius: 14px; } }
+
+.nhom-zalo{position:fixed;right:22px;bottom:22px;z-index:60;display:inline-flex;align-items:center;gap:10px;padding:11px 20px 11px 13px;border-radius:999px;background:#0068FF;color:#fff;font-weight:700;font-size:15.5px;text-decoration:none;box-shadow:0 10px 24px rgba(0,104,255,.38),0 2px 6px rgba(15,27,61,.18);transform-origin:50% 100%;animation:lay 4.5s ease-in-out 1.2s infinite}
+.nhom-zalo i{width:30px;height:30px;border-radius:50%;background:#fff;display:grid;place-items:center;flex:none}
+.nhom-zalo:hover{background:#0058DB;animation-play-state:paused}
+.nhom-zalo:focus-visible{outline:3px solid #9CC3FF;outline-offset:3px}
+@keyframes lay{0%,78%,100%{transform:rotate(0) translateY(0)}81%{transform:rotate(-5deg) translateY(-3px)}84%{transform:rotate(5deg) translateY(-3px)}87%{transform:rotate(-4deg) translateY(-2px)}90%{transform:rotate(4deg) translateY(-1px)}94%{transform:rotate(-2deg)}}
+@media (prefers-reduced-motion:reduce){.nhom-zalo{animation:none}}
+@media (max-width:560px){.nhom-zalo{right:14px;bottom:14px;font-size:14.5px;padding:9px 16px 9px 10px}}
+body{padding-bottom:64px}
 </style>
 </head>
 <body>
@@ -109,9 +118,10 @@ code { background: var(--bg); padding: 1px 6px; border-radius: 5px; }
   <p>Phần mềm tự thấy bản mới khi mở (hoặc trong vòng 6 giờ), tự tải ngầm rồi cài khi tắt phần mềm. Cũng có thể tải file cài đặt ở trang này rồi cài đè. Văn bản, bộ nhớ và mẫu riêng được giữ nguyên. Máy đang để dữ liệu ở ổ C và có ổ D, ổ E: khi cập nhật, dữ liệu được <b>chép</b> sang ổ D (kiểm đủ từng tệp); thư mục cũ ở ổ C được giữ lại, đổi tên thành "... (da chuyen sang o D)". Từ bản 2.1.2 thư mục làm việc tên là <code>TROLY_SO</code>: máy đang dùng <code>TROLY_VAN_PHONG</code> được đổi tên tại chỗ khi cập nhật.</p>
 
   <footer>
-    Tác giả: <b>Trần Thanh Chung</b> - Trường Tiểu học Quảng Châu 1, Nghệ An · Góp ý, báo lỗi: <a href="mailto:chungtrt@gmail.com">chungtrt@gmail.com</a><br>
-    Phần mềm do cá nhân xây dựng và chia sẻ miễn phí, không phải sản phẩm chính thức của cơ quan nhà nước.
+    Thiết kế: <b>Trần Thanh Chung</b> · Hỗ trợ: <a href="https://zalo.me/0913031073" target="_blank" rel="noopener">Zalo 0913031073</a> · <a href="https://zalo.me/g/bsbbney6zowhzolz9mss" target="_blank" rel="noopener">Nhóm Tư vấn và hỗ trợ</a> · <a href="https://phanmem.quantrisotruonghoc.com/">Các phần mềm Trợ lý AI khác</a><br>
+    Phần mềm do cá nhân xây dựng, không phải sản phẩm chính thức của cơ quan nhà nước.
   </footer>
 </div>
+<a class="nhom-zalo" href="https://zalo.me/g/bsbbney6zowhzolz9mss" target="_blank" rel="noopener" aria-label="Vào nhóm Zalo tư vấn và hỗ trợ"><i><svg width="19" height="19" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5c-5 0-9 3.4-9 7.6 0 2.4 1.3 4.5 3.4 5.9-.1 1-.5 2.1-1.3 3 1.7-.1 3.2-.7 4.3-1.6.8.2 1.7.3 2.6.3 5 0 9-3.4 9-7.6s-4-7.6-9-7.6z" fill="#0068FF"/><circle cx="8.3" cy="11.2" r="1.15" fill="#fff"/><circle cx="12" cy="11.2" r="1.15" fill="#fff"/><circle cx="15.7" cy="11.2" r="1.15" fill="#fff"/></svg></i>Nhóm Zalo hỗ trợ</a>
 </body>
 </html>
